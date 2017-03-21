@@ -1,5 +1,5 @@
 <?php
-
+//test new content
 namespace App;
 
 use Illuminate\Notifications\Notifiable;

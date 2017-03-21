@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('jobs', 'Job\JobRawController');
+
+
+Route::resource('jobs.images', 'Job\JobImageController');
+
+Route::resource('jobcategories', 'Job\JobCategoryController');
+
+Route::resource('jobcategories.jobs', 'Job\JobCategoryJobController');
